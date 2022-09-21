@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
-using TradeCategorization;
-
+using TradeCategorization.Model;
 
 string format = "MM/dd/yyyy";
 CultureInfo provider = CultureInfo.InvariantCulture;
@@ -39,6 +38,7 @@ while (index > 0)
     trades.Add(new Trade(value, clientSector, nextPaymentDate, referenceDate));
 }
 
+Console.WriteLine();
 foreach (Trade trade in trades)
 {
     Console.WriteLine(trade.Category.ToString());

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TradeCategorization
+namespace TradeCategorization.Model.Enum
 {
     public enum Category
     {

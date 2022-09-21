@@ -1,4 +1,7 @@
-﻿namespace TradeCategorization
+﻿using TradeCategorization.Model.Enum;
+using TradeCategorization.Model.Interface;
+
+namespace TradeCategorization.Model
 {
     public class Trade : ITrade
     {

@@ -1,4 +1,4 @@
-﻿namespace TradeCategorization
+﻿namespace TradeCategorization.Model.Interface
 {
     internal interface ITrade
     {
