@@ -1,5 +1,5 @@
-﻿using TradeCategorization.Model.Enum;
-using TradeCategorization.Model.Interface;
+﻿using TradeCategorization.Model.Interface;
+using TradeCategorization.Model.Enum;
 
 namespace TradeCategorization.Model
 {

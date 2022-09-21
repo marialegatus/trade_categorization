@@ -1,5 +1,7 @@
-﻿using System.Globalization;
+﻿using TradeCategorization.Model.Helper;
+using TradeCategorization.Model.Enum;
 using TradeCategorization.Model;
+using System.Globalization;
 
 string format = "MM/dd/yyyy";
 CultureInfo provider = CultureInfo.InvariantCulture;
@@ -41,5 +43,6 @@ while (index > 0)
 Console.WriteLine();
 foreach (Trade trade in trades)
 {
-    Console.WriteLine(trade.Category.ToString());
+    var categoryDisplayName = EnumHelper<Category>.GetDisplayValue(trade.Category);
+    Console.WriteLine(categoryDisplayName);
 }
